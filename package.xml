@@ -2,13 +2,13 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ds_ros2_drone</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="martinmaeland@outlook.com">martin</maintainer>
+  <version>0.0.1</version>
+  <description>ROS2 node for offboard control of Pixhawk 4 mini.</description>
+  <maintainer email="martinmaeland@outlook.com">martinmaeland</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>rclpy</exec_depend>
-  <exec_depend>ds_msgs</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
