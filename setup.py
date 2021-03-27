@@ -4,7 +4,7 @@ package_name = 'ds_ros2_drone'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='martinmaeland',
     maintainer_email='martinmaeland@outlook.com',
-    description='ROS2 node for offboard control of Pixhawk 4 mini.',
+    description='ROS2 package for offboard control of Pixhawk 4 mini.',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
