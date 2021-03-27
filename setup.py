@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='martin',
+    maintainer='martinmaeland',
     maintainer_email='martinmaeland@outlook.com',
-    description='TODO: Package description',
+    description='ROS2 node for offboard control of Pixhawk 4 mini.',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
